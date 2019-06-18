@@ -189,3 +189,20 @@ languages:
       current: v1.0.0-beta.4
       list:
       - v1.0.0-beta.4
+
+  ca:
+    weight: 2
+    languageName: "Catalan"
+    title: Commits Convencionals
+    description: Especificació per afegir un sentit llegible als missatges de commit util a humans i màquines
+    actions:
+    - label: Breu resum
+      url: '#breu-resum'
+    - label: Especificació Completa
+      url: '#especificació'
+    - label: Contribueix
+      url: 'https://github.com/conventional-commits/conventionalcommits.org'
+    versions:
+      current: v1.0.0-beta.4
+      list:
+      - v1.0.0-beta.4
