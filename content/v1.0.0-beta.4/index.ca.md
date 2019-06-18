@@ -64,7 +64,7 @@ docs: ortografia correcta del CHANGELOG
 
 ### Missatge d'un _commit_ amb un àmbit
 ```
-feat(lang): afegir llenguat polit
+feat(lang): afegir llenguatge polit
 ```
 
 ### Missatge d'un _commit_ per a un _fix_ fent servir el número d'_issue_ (optional)
@@ -110,23 +110,23 @@ or footer, along with the `!` in the prefix.
 
 ## Preguntes freqüents
 
-### How should I deal with commit messages in the initial development phase?
+### Com he de tractar els missatges de _commit_ en la fase de desenvolupament inicial?
 
-We recommend that you proceed as if you've already released the product. Typically *somebody*, even if it's your fellow software developers, is using your software. They'll want to know what's fixed, what breaks etc.
+Us recomanem que procediu com si ja hagueu llançat el producte. Normalment *algú*, encara que sigui els vostres desenvolupadors de programari, està utilitzant el vostre programari. Ells voldran saber què és el que està arreglat, què es trenca, etc.
 
-### Are the types in the commit title uppercase or lowercase?
+### Els tipus al títol del _commit_ s'escriuen en majúscules o minúscules?
 
-Any casing may be used, but it's best to be consistent.
+Qualsevol opció és correcta, però el millor és ser coherent.
 
-### What do I do if the commit conforms to more than one of the commit types?
+### Què faig si el _commit_ s'ajusta a més d'un dels tipus de _commit_?
 
-Go back and make multiple commits whenever possible. Part of the benefit of Conventional Commits is its ability to drive us to make more organized commits and PRs.
+Torneu enrere i feu múltiples _commits_ sempre que sigui possible. Una part del benefici dels _Commits_ Convencionals és la seva capacitat per conduir-nos a fer _commits_ i PRs més organitzats.
 
-### Doesn’t this discourage rapid development and fast iteration?
+### Això no desanima el desenvolupament ràpid i la iteració ràpida?
 
-It discourages moving fast in a disorganized way. It helps you be able to move fast long term across multiple projects with varied contributors.
+Desanima moures ràpid de manera desorganitzada. Us ajuda a poder moure ràpidament a llarg termini a través de múltiples projectes amb col·laboradors variats.
 
-### Might Conventional Commits lead developers to limit the type of commits they make because they'll be thinking in the types provided?
+### Els _Commits_ Convencionals poden portar els desenvolupadors a limitar el tipus de _commits_ que fan perquè pensaran en els tipus proposats?
 
 Conventional Commits encourages us to make more of certain types of commits such as fixes. Other than that, the flexibility of Conventional Commits allows your team to come up with their own types and change those types over time.
 
@@ -154,25 +154,25 @@ In a worst case scenario, it's not the end of the world if a commit lands that d
 No! If you use a squash based workflow on Git lead maintainers can clean up the commit messages as they're merged—adding no workload to casual committers.
 A common workflow for this is to have your git system automatically squash commits from a pull request and present a form for the lead maintainer to enter the proper git commit message for the merge.
 
-## About
+## Quant a
 
-The Conventional Commit specification is inspired by, and based heavily on, the [Angular Commit Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
+L'especificació dels _Commits_ Conventionals està inspirada, i basant-se molt, en la [Angular Commit Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
 
-The first draft of this specification has been written in collaboration with some of the folks contributing to:
+El primer esborrany d’aquesta especificació s’ha escrit en col·laboració amb algunes de les persones que contribueixen a:
 
-* [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog): a set of tools for parsing conventional commit messages from git histories.
-* [bumped](https://bumped.github.io): a tool for releasing software that makes it easy to perform actions before and after releasing a new version of your software.
-* [unleash](https://github.com/netflix/unleash): a tool for automating the software release and publishing lifecycle.
-* [lerna](https://github.com/lerna/lerna): a tool for managing monorepos, which grew out of the Babel project.
+* [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog): un conjunt d’eines per analitzar els missatges de _commits_ convencionals de les històries git.
+* [bumped](https://bumped.github.io): una eina per alliberar programari que faciliti realitzar accions abans i després de llançar una nova versió del vostre programari.
+* [unleash](https://github.com/netflix/unleash): una eina per automatitzar el cicle de vida d’edició i publicació de programari.
+* [lerna](https://github.com/lerna/lerna): una eina per gestionar monorepos, que va sorgir del projecte Babel.
 
-## Tooling for Conventional Commits
+## Eines per _Commits_ Convencionals
 
 * [php-commitizen](https://github.com/damianopetrungaro/php-commitizen): a tool built to create commit messages following the Conventional Commit specs. 
 Configurable and usable for PHP projects as a composer dependency or usable globally for non-PHP projects.
 * [conform](https://github.com/autonomy/conform): a tool that can be used to enforce policies on git repositories, including conventional commits.
 * [standard-version](https://github.com/conventional-changelog/standard-version): Automatic versioning and CHANGELOG management, using GitHub's new squash button and the recommended Conventional Commits workflow.
 
-## Projects Using Conventional Commits
+## Projectes que fan servir _Commits_ Convencionals
 
 * [yargs](https://github.com/yargs/yargs): everyone's favorite pirate themed command line argument parser.
 * [istanbuljs](https://github.com/istanbuljs/istanbuljs): a collection of open-source tools and libraries for adding test coverage to your JavaScript tests.
@@ -186,4 +186,4 @@ Configurable and usable for PHP projects as a composer dependency or usable glob
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-_want your project on this list?_ [send a pull request](https://github.com/conventional-changelog/conventionalcommits.org/pulls).
+_vols veure el teu projecte en aquesta llista?_ [envia un pull request](https://github.com/conventional-changelog/conventionalcommits.org/pulls).
